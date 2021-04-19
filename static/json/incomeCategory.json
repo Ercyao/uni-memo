@@ -1,0 +1,29 @@
+{
+	"code": "00",
+	"message": "成功",
+	"data": [{
+			"name": "工资",
+			"icon": "gz",
+			"type": "1",
+			"category":"income"
+		},
+		{
+			"name": "兼职",
+			"icon": "jz",
+			"type": "2",
+			"category":"income"
+		},
+		{
+			"name": "理财",
+			"icon": "lc",
+			"type": "3",
+			"category":"income"
+		},
+		{
+			"name": "其他",
+			"icon": "other",
+			"type": "4",
+			"category":"income"
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"code": "00",
+	"message": "成功",
+	"data": [{
+			"name": "月存",
+			"icon": "gz",
+			"type": "1",
+			"category":"plan"
+		},
+		{
+			"name": "开销",
+			"icon": "jz",
+			"type": "2",
+			"category":"plan"
+		},
+		{
+			"name": "旅游",
+			"icon": "lc",
+			"type": "3",
+			"category":"plan"
+		},
+		{
+			"name": "其他",
+			"icon": "other",
+			"type": "4",
+			"category":"plan"
+		}
+	]
+}

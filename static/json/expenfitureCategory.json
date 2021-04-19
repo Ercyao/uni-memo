@@ -1,0 +1,77 @@
+{
+	"code": "00",
+	"message": "成功",
+	"data": [{
+			"name": "餐饮",
+			"icon": "cy",
+			"type": "1",
+			"category":"expenfiture"
+		},
+		{
+			"name": "零食",
+			"icon": "ls",
+			"type": "2",
+			"category":"expenfiture"
+		},
+		{
+			"name": "购物",
+			"icon": "gw",
+			"type": "3",
+			"category":"expenfiture"
+		},
+		{
+			"name": "宠物",
+			"icon": "cw",
+			"type": "4",
+			"category":"expenfiture"
+		},
+		{
+			"name": "交通",
+			"icon": "jt",
+			"type": "5",
+			"category":"expenfiture"
+		},
+		{
+			"name": "住宿",
+			"icon": "zh",
+			"type": "6",
+			"category":"expenfiture"
+		},
+		{
+			"name": "娱乐",
+			"icon": "ls",
+			"type": "7",
+			"category":"expenfiture"
+		},
+		{
+			"name": "通讯",
+			"icon": "tx",
+			"type": "8",
+			"category":"expenfiture"
+		},
+		{
+			"name": "社交",
+			"icon": "sj",
+			"type": "9",
+			"category":"expenfiture"
+		},
+		{
+			"name": "医疗",
+			"icon": "yl",
+			"type": "10",
+			"category":"expenfiture"
+		},
+		{
+			"name": "旅行",
+			"icon": "lx",
+			"type": "11",
+			"category":"expenfiture"
+		},
+		{
+			"name": "其他",
+			"icon": "other",
+			"type": "12",
+			"category":"expenfiture"
+		}
+	]
+}

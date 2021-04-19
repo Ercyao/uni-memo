@@ -1,0 +1,41 @@
+{
+	"code": "00",
+	"message": "成功",
+	"data": [{
+			"name": "微信余额",
+			"icon": "gz",
+			"type": "1",
+			"category": "balance"
+		},
+		{
+			"name": "微-银行卡",
+			"icon": "jz",
+			"type": "2",
+			"category": "balance"
+		},
+		{
+			"name": "支付宝",
+			"icon": "lc",
+			"type": "3",
+			"category": "balance"
+		},
+		{
+			"name": "支-理财",
+			"icon": "other",
+			"type": "4",
+			"category": "balance"
+		},
+		{
+			"name": "单独银行卡",
+			"icon": "other",
+			"type": "5",
+			"category": "balance"
+		},
+		{
+			"name": "其他",
+			"icon": "other",
+			"type": "6",
+			"category": "balance"
+		}
+	]
+}
