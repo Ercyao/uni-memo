@@ -3,7 +3,9 @@
 		{
 			"path": "pages/list/index",
 			"style": {
-				"navigationBarTitleText": "明细"
+				"navigationBarTitleText": "明细",
+				 "navigationStyle": "custom",
+				"enablePullDownRefresh": true //下拉刷新
 			}
 		},
 		{
@@ -19,36 +21,49 @@
 			}
 		},
 		{
-			"path": "pages/chart/index",
+			"path": "pages/category/index",
 			"style": {
 				"navigationBarTitleText": "图表"
+			}
+		},
+		{
+			"path": "pages/category/index",
+			"style": {
+				"navigationBarTitleText": "分类"
 			}
 		}
 	],
 	"tabBar": {
 		"color": "#333333",
-		"selectedColor": "#1296db",
+		"selectedColor": "#289cef",
 		"backgroundColor": "#ffffff",
 		"borderStyle": "black",
 		"list": [{
 				"pagePath": "pages/list/index",
 				"text": "明细",
 				"iconPath": "static/img/tabbar/tab-1.png",
-				"selectedIconPath": "static/img/tabbar/tab-1.png"
+				"selectedIconPath": "static/img/tabbar/tab-1-active.png"
 			},
 			{
 				"pagePath": "pages/record/index",
-				"text": "记账",
+				"text": "记录",
 				"iconPath": "static/img/tabbar/tab-2.png",
 				"selectedIconPath": "static/img/tabbar/tab-2.png"
 			},
 			{
 				"pagePath": "pages/chart/index",
-				"text": "图表",
+				"text": "我的",
 				"iconPath": "static/img/tabbar/tab-3.png",
-				"selectedIconPath": "static/img/tabbar/tab-3.png"
+				"selectedIconPath": "static/img/tabbar/tab-3-active.png"
 			}
 		]
+		// "midButton": {
+		// 	"width": "70px",
+		// 	"height": "65px",
+		// 	"text": "",
+		// 	"iconPath": "static/img/tabbar/tab-2.png",
+		// 	"iconWidth": "60px"
+		// }
 	},
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
